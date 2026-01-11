@@ -5,10 +5,10 @@ import (
 	"math"
 )
 
-const s string = "constant"
+const s1 string = "constant"
 
 func main() {
-	fmt.Println(s)
+	fmt.Println(s1)
 	const n = 500000000000
 	const d = 3e20 / n
 	fmt.Println(d)
